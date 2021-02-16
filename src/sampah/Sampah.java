@@ -19,6 +19,13 @@ public class Sampah {
         
         oi.data();
         oi.pilihan();
+        
+        System.out.println("\n========== NOTA PENJUALAN SAMPAH ANDA ==========");
+        System.out.println("Nama    : " + oi.nama());
+        System.out.println("Alamat  : " + oi.alamat());
+        System.out.println("No. HP  : " + oi.hp());
+        System.out.println("Total uang yang anda dapatkan : " + oi.totalprice);
+        System.out.println("\nTerima kasih, Silahkan datang kembali");
     }
     
 }
