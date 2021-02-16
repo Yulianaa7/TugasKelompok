@@ -36,7 +36,7 @@ public class datasampah {
         System.out.println("");
         System.out.println("Masukkan sampah yang ingin anda jual : ");
         int pilih = input.nextInt();
-        System.out.println("Masukkan berat sampah (Satuan kg) : ");
+        System.out.println("Masukkan berat sampah (Satuan KG) : ");
         int berat = input.nextInt();
         
         int total = harga[pilih]*berat;
