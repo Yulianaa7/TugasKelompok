@@ -34,16 +34,18 @@ public class datasampah {
             System.out.println("   Harga : "+harga[i]);
         }
         System.out.println("");
-        System.out.println("Masukkan sampah yang ingin anda jual : ");
+        System.out.print("Masukkan sampah yang ingin anda jual  : ");
         int pilih = input.nextInt();
-        System.out.println("Masukkan berat sampah (Satuan KG) : ");
+        System.out.print("Masukkan berat sampah (Satuan KG)     : ");
         int berat = input.nextInt();
         
         int total = harga[pilih]*berat;
-        System.out.println("Uang yang anda dapatkan : "+total);
+        System.out.println("Uang yang anda dapatkan : "+total );
         totalprice += total;
+        System.out.println("");
+        System.out.println("===========================================");
     
-        System.out.println("\nApakah anda ingin menambahnya? (ya/tidak)");
+        System.out.println("Apakah anda ingin menambahnya? (ya/tidak)");
         System.out.print("=> ");
         String keepRepeating = input.next();
         repeat = keepRepeating.equalsIgnoreCase("ya");
